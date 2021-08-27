@@ -7,16 +7,16 @@ body {
 .container__body .body__title {
   text-align: center;
   font-style: italic;
-  font-size: 50px;
-  margin-bottom: 10px
+  font-size: 330%;
+  margin-bottom: 1%
 }
 
 
 .container__body .body__subtitle {
   text-align: center;
   font-style: oblique;
-  font-size: 20px;
-  margin-top: 10px
+  font-size: 140%;
+  margin-top: 1%
 }
 
 
@@ -26,46 +26,62 @@ body {
 
 
 .card .card__box {
+  display: inline-table;
+  margin: 2%;
   list-style: none;
-  float: left;
-  width: 615px;
+  width: 28%;
+}
+
+
+.card .card__box:hover .card__image {
+  transform: translateY( 15px);
 }
 
 
 .card .card__box .card__image img {
-  width: 350px;
-  padding-left: 80px;
-  padding-right: 80px;
-  background-color: rgb( 248, 196, 113)
+  width: 100%;
+  background-color: rgb( 248, 196, 113);
 }
 
 
 .card__content {
-  display: block;
-  width: 350px;
-  padding: 10px 80px 30px 80px;
+  width: 100%;
   background-color: rgb( 252, 243, 207)
 }
 
 
 .content .content__title h3 {
-  margin-top: 25px;
-  margin-bottom: 5px
+  width: 100%;
 }
 
 
 .content .content__title {
   text-align: center;
-  font-size: 25px;
+  font-size: 150%;
   border-bottom: 3px solid rgb( 248, 196, 113)
 }
 
 
 .content .content__text {
-  line-height: 25px;
-  padding-top: 20px;
-  padding-bottom: 20px
+  width: 100%;
 }
+
+
+.content .content__text p {
+  width: 80%;
+  padding: 10%;
+}
+
+
+li:nth-child(even) .content__text {
+  background-color: rgb( 253, 254, 254);
+}
+
+
+li:nth-child(odd) .content__text {
+  background-color: rgb( 252, 243, 207);
+}
+
 
 
 .content .content__button {
@@ -74,9 +90,10 @@ body {
 
 
 .content .content__button button {
-  width: 350px;
-  height: 45px;
-  font-size: 17px;
+  width: 80%;
+  padding: 3%;
+  margin: 5%;
+  font-size: 100%;
   font-weight: bold;
   border-radius: 7px;
   border-style: none;
@@ -89,3 +106,23 @@ body {
   background-color: rgb( 245, 176, 65);
   box-shadow: 0px 5px
 }
+
+
+li:nth-child(odd) .content__button button{
+  background-color: rgb( 142, 68, 173);
+  color: rgb( 253, 254, 254);
+}
+
+
+.card .card__box:first-child {
+  border-style: solid;
+  border-color: rgb( 231, 76, 60);
+}
+
+
+.card__box:last-child {
+  border-style: solid;
+  border-color: rgb( 46, 204, 113);
+}
+
+
