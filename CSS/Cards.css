@@ -1,35 +1,44 @@
 body {
   background-color: rgb( 249, 231, 159);
-  font-family: sans-serif
+  font-family: sans-serif;
 }
 
 
 .container__body .body__title {
   text-align: center;
   font-style: italic;
-  font-size: 330%;
-  margin-bottom: 1%
+  font-size: 3rem;
+  margin-bottom: 30px;
 }
 
 
 .container__body .body__subtitle {
   text-align: center;
   font-style: oblique;
-  font-size: 140%;
-  margin-top: 1%
+  font-size: 22px;
 }
 
 
 .container__card .card {
-  display: block;
+  display: inline-block;
 }
 
 
 .card .card__box {
-  display: inline-table;
-  margin: 2%;
+  margin: 2em;
   list-style: none;
   width: 28%;
+  float: left;
+}
+
+
+.card .card__box:first-child {
+  border: 1px solid rgb( 231, 76, 60);
+}
+
+
+.card .card__box:last-child {
+  border: 1px solid rgb( 46, 204, 113);
 }
 
 
@@ -46,7 +55,7 @@ body {
 
 .card__content {
   width: 100%;
-  background-color: rgb( 252, 243, 207)
+  background-color: rgb( 252, 243, 207);
 }
 
 
@@ -57,8 +66,8 @@ body {
 
 .content .content__title {
   text-align: center;
-  font-size: 150%;
-  border-bottom: 3px solid rgb( 248, 196, 113)
+  font-size: 25px;
+  border-bottom: 3px solid rgb( 248, 196, 113);
 }
 
 
@@ -69,7 +78,14 @@ body {
 
 .content .content__text p {
   width: 80%;
-  padding: 10%;
+  padding: 40px;
+}
+
+
+.content .content__text .fifth__text::before {
+  content: "Soy un Pseudoelemento ";
+  font-weight: bold;
+  color: rgb( 149, 165, 166);
 }
 
 
@@ -85,26 +101,26 @@ li:nth-child(odd) .content__text {
 
 
 .content .content__button {
-  text-align: center
+  text-align: center;
 }
 
 
 .content .content__button button {
   width: 80%;
-  padding: 3%;
-  margin: 5%;
-  font-size: 100%;
+  padding: 10px;
+  margin: 20px;
+  font-size: 1rem;
   font-weight: bold;
   border-radius: 7px;
   border-style: none;
   background-color: rgb( 248, 196, 113);
-  transition-duration: 0.4s
+  transition-duration: 0.4s;
 }
 
 
 .content .content__button button:hover {
   background-color: rgb( 245, 176, 65);
-  box-shadow: 0px 5px
+  box-shadow: 0px 5px;
 }
 
 
@@ -113,16 +129,5 @@ li:nth-child(odd) .content__button button{
   color: rgb( 253, 254, 254);
 }
 
-
-.card .card__box:first-child {
-  border-style: solid;
-  border-color: rgb( 231, 76, 60);
-}
-
-
-.card__box:last-child {
-  border-style: solid;
-  border-color: rgb( 46, 204, 113);
-}
 
 
