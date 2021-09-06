@@ -7,8 +7,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     justify-content: center;
     align-items: center; 
@@ -33,8 +33,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     justify-content: flex-start;
     align-items: center;
@@ -60,8 +60,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     justify-content: flex-start;
     align-items: center;
@@ -107,8 +107,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     justify-content: flex-end;
     align-items: center;
@@ -134,8 +134,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     justify-content: space-around;
     align-items: center;
@@ -161,8 +161,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     justify-content: space-between;
     align-items: center;
@@ -188,8 +188,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     align-items: flex-end;
 }
@@ -214,8 +214,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     align-items: flex-start;
 }
@@ -240,8 +240,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     align-items: stretch;
 }
@@ -266,8 +266,8 @@ body {
     display: flex;
     background-color: rgb( 248, 187, 208);
     border: 1px solid rgb( 0, 0, 0);
-    width: 100vh;
-    height: 10vw;
+    width: 100vw;
+    height: 10vh;
     margin: 1em;
     justify-content: center;
     align-items: center; 

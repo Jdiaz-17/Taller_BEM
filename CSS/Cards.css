@@ -20,15 +20,15 @@ body {
 
 
 .container__card .card {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
 .card .card__box {
   margin: 2em;
   list-style: none;
-  width: 28%;
-  float: left;
+  flex: 25%;
 }
 
 
@@ -43,7 +43,7 @@ body {
 
 
 .card .card__box:hover .card__image {
-  transform: translateY( 15px);
+  transform: translateY(-15px);
 }
 
 
@@ -61,6 +61,7 @@ body {
 
 .content .content__title h3 {
   width: 100%;
+  margin-block-start: 0px;
 }
 
 
