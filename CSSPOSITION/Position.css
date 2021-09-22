@@ -499,6 +499,7 @@ button {
 @media (min-width: 768px) and (max-width: 1024px) {
   .topmenu {
     width: 100%;
+    margin: 0 auto;
   }
   .topmenu__returnbutton {
     font-size: 12px;
@@ -515,6 +516,7 @@ button {
   }
   .menu {
     width: 100%;
+    margin: 0 auto;
   }
   .menu__logo {
     width: 30%;
@@ -535,6 +537,7 @@ button {
   }
   .news {
     width: 100%;
+    margin: 0 auto;
   }
   .news__title {
     width: 100%;
@@ -566,6 +569,7 @@ button {
 @media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   .topmenu {
     width: 100%;
+    margin: 0 auto;
   }
   .topmenu__returnbutton {
     width: 30%;
@@ -585,6 +589,7 @@ button {
   }
   .menu {
     width: 100%;
+    margin: 0 auto;
     flex-wrap: wrap;
   }
   .menu__logo {
@@ -602,6 +607,7 @@ button {
   }
   .news {
     width: 100%;
+    margin: 0 auto;
   }
   .news__title {
     width: 100%;
@@ -619,6 +625,7 @@ button {
   }
   .card__item__content {
     font-weight: bold;
+    border-top: 3px solid yellow;
   }
   .linkbutton__seemore {
         background-color: teal;
@@ -638,7 +645,8 @@ button {
 
 @media (min-width: 1000px) and (max-width: 1500px) {
   .topmenu {
-    width: 1100px;
+    width: 100%;
+    margin: 0 auto;
   }
   .topmenu__returnbutton {
     width: 25%;
@@ -651,7 +659,8 @@ button {
     padding: 0px;
   }
   .menu {
-    width: 1100px;
+    width: 100%;
+    margin: 0 auto;
   }
   .menu__logo {
     width: 30%;
@@ -666,13 +675,14 @@ button {
     padding: 0px;
   }
   .news {
-    width: 1100px;
+    width: 100%;
+    margin: 0 auto;
   }
   .news__title {
     width: 100%;
   }
   .news__card {
-    width: 1100px;
+    width: 100%;
   }
   .news__card__item {
     width: 100%;
@@ -699,7 +709,8 @@ button {
 
 @media (min-width: 1600px) and (max-width: 2000px) {
   .topmenu {
-    width: 1300px;
+    width: 100%;
+    margin: 0 auto;
   }
   .topmenu__returnbutton {
     width: 30%;
@@ -713,7 +724,8 @@ button {
     padding: 0px;
   }
   .menu {
-    width: 1300px;
+    width: 100%;
+    margin: 0 auto;
   }
   .menu__logo {
     width: 30%;
@@ -728,7 +740,8 @@ button {
     padding: 0px;
   }
   .news {
-    width: 1300px;
+    width: 100%;
+    margin: 0 auto;
   }
   .news__title {
     width: 100%;
