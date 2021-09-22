@@ -310,14 +310,14 @@ button {
 
 /*Responsive Mobile*/
 
-@media (min-width: 320px) and (max-width: 680px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .topmenu {
     font-size: 10px;
     width: 100%;
   }
   .topmenu__returnbutton {
     font-size: 8px;
-    width: 25%;
+    width: 30%;
     justify-content: flex-end;
   }
   .topmenu__returnbutton__item {
@@ -327,7 +327,7 @@ button {
   }
   .topmenu__linkbutton {
     font-size: 8px;
-    width: 75%;
+    width: 70%;
   }
   .topmenu__linkbutton__item {
     display: flex;
@@ -358,6 +358,7 @@ button {
   .menu__button__item {
     flex-wrap: wrap;
     height: 50px;
+    height: 100%;
   }
   .news {
     font-size: 10px;
@@ -367,11 +368,19 @@ button {
     width: 100%;
   }
   .news__card {
-    width: 100%;
+    width: 90%;
+    padding: 15px;
+    justify-content: center;
   }
   .news__card__item {
     flex-wrap: wrap;
-    padding: 15px;
+    width: 90%;
+  }
+  .card__item {
+    width: 100%;
+  }
+  .card__item__image img {
+    width: 100%;
   }
   .card__item__content {
     background-color: rgb( 9, 74, 32);
@@ -398,10 +407,96 @@ button {
   }
 }
 
+@media (min-width: 568px) and (max-width: 812px) and (orientation: landscape) {
+  .topmenu {
+    width: 100%;
+  }
+  .topmenu__returnbutton {
+    width: 25%;
+  }
+  .topmenu__linkbutton {
+    width: 75%;
+    justify-content: center;
+  }
+  .topmenu__linkbutton__item {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px;
+  }
+  .menu {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .menu__logo {
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+  }
+  .menu__logo img {
+    width: 50%;
+  }
+  .menu__button {
+    width: 100%;
+    justify-content: center;
+  }
+  .menu__button__item {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .news {
+    width: 100%;
+  }
+  .news__title {
+    width: 100%;
+  }
+  .news__card {
+    width: 90%;
+    padding: 15px;
+    justify-content: center;
+  }
+  .news__card__item {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .card__item {
+    width: 80%;
+  }
+  .card__item__image img {
+    width: 100%;
+  }
+  .card__item__content {
+    border-top: 3px solid rgb( 244, 241, 241);
+    background-color: purple;
+    color: white;
+  }
+  .content__date {
+    color: white;
+  }
+  .news__pagination {
+    width: 100%;
+    padding: 0px;
+  }
+  .news__linkbutton {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .whatsappbutton {
+    width: 100%;
+  }
+  .whatsappbutton__icon {
+    width: 12%;
+    flex-direction: row-reverse;
+  }
+  .whatsappbutton__icon img {
+    display: flex;
+    margin-inline-end: auto;
+  }
+}
+
 
 /*Responsive Tablet*/
 
-@media (min-width: 720px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .topmenu {
     width: 100%;
   }
@@ -465,12 +560,82 @@ button {
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  .topmenu {
+    width: 100%;
+  }
+  .topmenu__returnbutton {
+    width: 30%;
+  }
+  .topmenu__linkbutton {
+    width: 70%;
+    justify-content: center;
+  }
+  .topmenu__linkbutton__item {
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .linkbutton__item {
+    padding: 2px 5px;
+  }
+  .menu {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .menu__logo {
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+  }
+  .menu__button {
+    width: 100%;
+    justify-content: center;
+  }
+  .menu__button__item {
+    padding: 0px;
+    width: 100%;
+  }
+  .news {
+    width: 100%;
+  }
+  .news__title {
+    width: 100%;
+  }
+  .news__card {
+    width: 100%;
+    justify-content: center;
+  }
+  .news__card__item {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .card__item {
+    width: 32%;
+  }
+  .card__item__content {
+    font-weight: bold;
+  }
+  .linkbutton__seemore {
+        background-color: teal;
+  }
+  .news__pagination {
+    width: 100%;
+    padding: 0px;
+  }
+  .news__linkbutton {
+    width: 80%;
+    padding: 10px 0px;
+  }
+}
+
 
 /*Responsive Desktop*/
 
-@media (min-width: 1000px) and (max-width: 1500px) {
+@media (min-width: 1000px) and (max-width: 1500px) and (orientation: portrait) {
   .topmenu {
-    width: 100%;
+    width: 1100px;
   }
   .topmenu__returnbutton {
     width: 25%;
@@ -483,7 +648,7 @@ button {
     padding: 0px;
   }
   .menu {
-    width: 100%;
+    width: 1100px;
   }
   .menu__logo {
     width: 30%;
@@ -498,7 +663,7 @@ button {
     padding: 0px;
   }
   .news {
-    width: 100%;
+    width: 1100px;
   }
   .news__title {
     width: 100%;
@@ -529,18 +694,38 @@ button {
 
 /*Responsive Desktop XL*/
 
-@media (min-width: 1600px) {
+@media (min-width: 1600px) and (max-width: 2000px) {
+  .topmenu {
+    width: 1300px;
+  }
   .topmenu__returnbutton {
-
+    width: 30%;
   }
   .topmenu__linkbutton {
-
+    width: 70%;
+    justify-content: center;
+  }
+  .topmenu__linkbutton__item {
+    width: 100%;
+    padding: 0px;
   }
   .menu {
-    
+    width: 1300px;
+  }
+  .menu__logo {
+    width: 30%;
+    margin: 0px;
+  }
+  .menu__button {
+    width: 70%;
+    justify-content: center;
+  }
+  .menu__button__item {
+    width: 100%;
+    padding: 0px;
   }
   .news {
-    width: 100%;
+    width: 1300px;
   }
   .news__title {
     width: 100%;
@@ -553,6 +738,7 @@ button {
   }
   .card__item {
     width: 23%;
+    box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
   }
   .card__item__image img {
     width: 100%;
