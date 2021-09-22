@@ -13,7 +13,7 @@ a {
 .topmenu {
   display: flex;
   position: relative;
-  margin: 0 auto;
+  margin: 0 ;
   background-color: rgb( 23, 32, 42);
 }
 
@@ -71,7 +71,7 @@ a {
   display: flex;
   background-color: rgb( 0, 0, 0);
   position: relative;
-  margin: 0 auto;
+  margin: 0 ;
 }
 
 
@@ -496,7 +496,7 @@ button {
 
 /*Responsive Tablet*/
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .topmenu {
     width: 100%;
   }
@@ -550,6 +550,9 @@ button {
   .card__item {
     width: 45%;
   }
+  .linkbutton__seemore {
+    background-color: teal;
+}
   .news__pagination {
     width: 100%;
     padding: 10px 0px;
@@ -633,7 +636,7 @@ button {
 
 /*Responsive Desktop*/
 
-@media (min-width: 1000px) and (max-width: 1500px) and (orientation: portrait) {
+@media (min-width: 1000px) and (max-width: 1500px) {
   .topmenu {
     width: 1100px;
   }
@@ -731,13 +734,14 @@ button {
     width: 100%;
   }
   .news__card {
-    width: 1300px;
+    width: 100%;
   }
   .news__card__item {
     width: 100%;
+    flex-wrap: wrap;
   }
   .card__item {
-    width: 23%;
+    width: 50%;
     box-shadow: rgb(0 0 0 / 10%) 0px 10px 50px;
   }
   .card__item__image img {
@@ -751,5 +755,11 @@ button {
     width: 100%;
     padding: 0px;
     margin: 10px 0px;
+  }
+  .whatsappbutton {
+
+  }
+  .whatsappbutton__icon {
+
   }
 }
