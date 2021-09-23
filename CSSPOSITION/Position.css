@@ -117,7 +117,8 @@ a {
   display: flex;
   list-style: none;
   align-self: center;
-  width: 140px
+  width: 140px;
+  justify-content: center;
 }
 
 
@@ -310,11 +311,8 @@ button {
 /*Responsive Mobile*/
 
 @media (min-width: 320px) and (max-width: 650px) {
-  .menusection{
-    position: relative;
-    background-color: black;
-  }
   .topmenu {
+    height: 10%;
     font-size: 10px;
     width: 100%;
   }
@@ -344,7 +342,7 @@ button {
     font-size: 10px;
     width: 100%;
     flex-direction: column;
-    margin-top: 27px;
+    top: 9%;
   }
   .menu__logo {
     width: 100%;
@@ -367,7 +365,7 @@ button {
   .news {
     font-size: 10px;
     width: 100%;
-    padding-top: 150px;
+    top: 33%;
   }
   .news__title {
     width: 100%;
@@ -413,12 +411,9 @@ button {
 }
 
 @media (min-width: 568px) and (max-width: 812px) and (orientation: landscape) {
-  .menusection{
-    position: relative;
-    background-color: black;
-  }
   .topmenu {
     width: 100%;
+    height: 10%;
   }
   .topmenu__returnbutton {
     width: 25%;
@@ -435,7 +430,8 @@ button {
   .menu {
     width: 100%;
     flex-wrap: wrap;
-    margin-top: 50px;
+    top: 10%;
+    height: 30%;
   }
   .menu__logo {
     width: 100%;
@@ -455,7 +451,7 @@ button {
   }
   .news {
     width: 100%;
-    padding-top: 150px;
+    top: 40%;
   }
   .news__title {
     width: 100%;
@@ -510,6 +506,7 @@ button {
 @media (min-width: 768px) and (max-width: 1024px) {
   .topmenu {
     width: 100%;
+    height: 7%;
   }
   .topmenu__returnbutton {
     font-size: 12px;
@@ -526,6 +523,8 @@ button {
   }
   .menu {
     width: 100%;
+    height: 8%;
+    top: 7%;
   }
   .menu__logo {
     width: 30%;
@@ -547,6 +546,7 @@ button {
   .news {
     width: 100%;
     margin: 0 auto;
+    top: 15%;
   }
   .news__title {
     width: 100%;
@@ -578,6 +578,7 @@ button {
 @media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   .topmenu {
     width: 100%;
+    height: 7%;
   }
   .topmenu__returnbutton {
     width: 30%;
@@ -598,6 +599,8 @@ button {
   .menu {
     width: 100%;
     flex-wrap: wrap;
+    height: 10%;
+    top: 7%;
   }
   .menu__logo {
     width: 100%;
@@ -615,6 +618,7 @@ button {
   .news {
     width: 100%;
     margin: 0 auto;
+    top: 15%;
   }
   .news__title {
     width: 100%;
@@ -715,6 +719,7 @@ button {
 @media (min-width: 1600px) and (max-width: 2000px) {
   .topmenu {
     width: 100%;
+    height: 7%;
   }
   .topmenu__returnbutton {
     width: 30%;
@@ -729,6 +734,7 @@ button {
   }
   .menu {
     width: 100%;
+    top: 7%;
   }
   .menu__logo {
     width: 30%;
@@ -745,6 +751,7 @@ button {
   .news {
     width: 100%;
     margin: 0 auto;
+    top: 15%;
   }
   .news__title {
     width: 100%;
